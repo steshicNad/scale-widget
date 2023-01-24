@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'EuclidCircularA';
+  src: url('./font/Euclid Circular A Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'EuclidCircularA';
+  src: url('./font/Euclid Circular A SemiBold.ttf');
+  font-weight: 600;
+}
+* {
+  font-family: 'EuclidCircularA';
+}
